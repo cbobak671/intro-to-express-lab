@@ -51,7 +51,6 @@ app.get("/shoes", (req, res) => {
     { name: "Jet Boots", price: 1000, type: "boot" },
     { name: "Fifty-Inch Heels", price: 175, type: "heel" },
   ];
-  const shoeName = req.query.name;
   const shoePrice = req.query.price;
   const shoeType = req.query.type;
 
